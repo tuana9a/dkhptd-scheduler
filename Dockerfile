@@ -1,4 +1,4 @@
-FROM node:16.19.0-slim
+FROM node:16.19-slim
 WORKDIR /app/
 COPY package.json .
 COPY tsconfig.json .
