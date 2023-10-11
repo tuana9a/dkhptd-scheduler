@@ -5,4 +5,4 @@ COPY tsconfig.json .
 RUN npm install
 COPY src src
 RUN npx tsc
-CMD node dist/index.js
+CMD ["node", "dist/index.js"]
